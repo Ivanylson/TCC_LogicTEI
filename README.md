@@ -20,4 +20,5 @@ Youtube: [https://www.youtube.com/watch?v=dmtNYenW2Ow]
 
 # Instalação do LogicTEI - Linux/MAC
 Youtube: [https://www.youtube.com/watch?v=io0wfrGp4sg]
+
 Referências de instalação: Linux: [https://pt.wikihow.com/Rodar-Arquivos-Exe-no-Linux] e MAC [https://pt.wikihow.com/Abrir-Arquivos-EXE-num-Mac]
