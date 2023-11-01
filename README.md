@@ -17,6 +17,7 @@ O público alvo são os alunos dos primeiros períodos do curso de Ciência da C
 
 # Instalação do LogicTEI - Windows
 Tem que ter a pasta _internal para funcionar, pois tem biblioteca do internas do windows senão o main.exe não funciona
+
 Youtube: [https://www.youtube.com/watch?v=dmtNYenW2Ow] 
 
 # Instalação do LogicTEI - Linux/MAC
