@@ -14,7 +14,7 @@ def show_classificacoes(screen,user_name):
     altura_tela = 600
 
     pygame.display.set_caption("Classificação de Módulos")
-    menu_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 22)
+    menu_font = pygame.font.Font(None, 22)
     
     back_text = menu_font.render("Pressione ESC para voltar ao menu.", True, (0, 0, 0))
 
@@ -23,7 +23,7 @@ def show_classificacoes(screen,user_name):
     cor_texto = (0, 0, 0)
 
     # Fonte e tamanho do texto
-    fonte = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 22)
+    fonte = pygame.font.Font(None, 22)
 
     # Dicionário de mapeamento de números de módulos para nomes
     modulo_nomes = {

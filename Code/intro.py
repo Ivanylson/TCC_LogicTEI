@@ -9,7 +9,7 @@ def show_intro(screen):
     # Redimensiona a imagem de fundo para corresponder à tela
     background_image = pygame.transform.scale(background_image, (800, 600))
 
-    intro_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 24)
+    intro_font = pygame.font.Font(None, 24)
     title = "Logic T.E.I"
     subtitle = "Tecnologia Educacional Interativa"
     footer_line1 = "Desenvolvido por Ivanylson HG"

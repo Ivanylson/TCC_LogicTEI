@@ -19,7 +19,7 @@ def show_intro2(screen):
         "Bem vindo ao Logic .T.E.I",
     ]
 
-    intro_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 24)
+    intro_font = pygame.font.Font(None, 24)
 
     def display_intro_text(text_lines):
         for line in text_lines:

@@ -12,7 +12,7 @@ def show_sobre(screen,user_name):
     # Redimensiona a imagem de fundo para corresponder à tela
     background_image = pygame.transform.scale(background_image, (800, 600))
 
-    menu_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 22)
+    menu_font = pygame.font.Font(None, 22)
     text = menu_font.render("Este jogo foi feito pelo Ivanylson Honorio Gonçalves.", True, (0, 0, 0))
     text2 = menu_font.render("TCC de S.I - UFJF", True, (0, 0, 0))
     text3 = menu_font.render("Orientador pela Profa. Regina Maciel Braga", True, (0, 0, 0))

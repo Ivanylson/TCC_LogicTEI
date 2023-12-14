@@ -315,7 +315,7 @@ def main(screen,user_name):
     window = pygame.display.set_mode((screen_width, screen_height))
     pygame.display.set_caption("Logic T.E.I - Equivalência Lógica")
     # Fonte 
-    font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 24)
+    font = pygame.font.Font(None, 24)
     # Cores
     white = (255, 255, 255)
     black = (0, 0, 0)

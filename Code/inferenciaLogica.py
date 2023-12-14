@@ -331,7 +331,7 @@ def main(screen,user_name):
     BLACK = (0, 0, 0)
 
     # Fonte
-    font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 19)
+    font = pygame.font.Font(None, 19)
 
     # Dimensões do botão
     button_width = 120

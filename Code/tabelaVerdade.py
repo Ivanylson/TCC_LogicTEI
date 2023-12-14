@@ -311,7 +311,7 @@ def main(screen,user_name):
     red = (255, 0, 0)
 
     # Fonte
-    font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 24)
+    font = pygame.font.Font(None, 24)
 
     # Dimensões da tabela
     table_width = 300

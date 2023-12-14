@@ -37,7 +37,7 @@ def show_escolhaDificuldade(screen,user_name):
 	cor_texto = (255, 255, 255)
 
 	# Fonte e tamanho do texto
-	fonte = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 22)
+	fonte = pygame.font.Font(None, 22)
 	back_text = fonte.render("Pressione ESC para voltar ao menu.", True, (0, 0, 0))
 
 	# Carrega a imagem de fundo

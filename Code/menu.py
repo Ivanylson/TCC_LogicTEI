@@ -9,7 +9,7 @@ import instrucoes
 
 # Mostrar menu
 def show_menu(screen, user_name):
-    menu_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf', 29)
+    menu_font = pygame.font.Font(None, 29)
     menu_options = ["INICIAR", "INSTRUÇÕES","ESCOLHER A DIFICULDADE" ,"CLASSIFICAÇÕES", "SOBRE", "SAIR"]
     selected_option = 0
 
@@ -66,7 +66,7 @@ def show_menu(screen, user_name):
             screen.blit(text, text_rect)
 
         # Exiba o nome do usuário
-        user_font = pygame.font.Font('./fontes/DalekPinpointBold.ttf',24)
+        user_font = pygame.font.Font(None,24)
         user_text = user_font.render(f"Jogador(a): {user_name}", True, (0, 0, 0))
         user_rect = user_text.get_rect(topleft=(20, 20))
         screen.blit(user_text, user_rect)
